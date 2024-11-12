@@ -5,3 +5,4 @@ tqdm
 python-dotenv
 faiss-cpu
 huggingface-hub
+langchain-community
