@@ -18,9 +18,18 @@ st.set_page_config(page_title="Claim Verification - Ask a Question")
 # Dark Blush Color
 st.markdown("<h1 style='border-bottom: 2px solid #9b1b30; padding-bottom: 10px; color: #9b1b30;'>Claim Verification - Ask a Question</h1>", unsafe_allow_html=True)
 
+# Sidebar with instruction box
+st.sidebar.markdown(
+    """
+    **Instructions:**
 
-# Black Color
-# st.markdown("<h1 style='border-bottom: 2px solid #000000; padding-bottom: 10px; color: #000000;'>Claim Verification - Ask a Question</h1>", unsafe_allow_html=True)
+    Please enter your question in the following format:
+    *Patient's disease/symptoms, doctor's prescription, test, medicine.*
+
+    Example: 
+    "Patient has a fever, doctor prescribed Paracetamol, test: Blood test, medicine: 500mg Paracetamol"
+    """
+)
 
 # Stretchable text area for user question
 user_question = st.text_area("Enter your question:", height=150)
