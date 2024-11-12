@@ -1,0 +1,13 @@
+
+
+instruction_text: |
+  Based on the information in the knowledge base, verify whether the prescribed medication, 
+  laboratory tests, radiology orders (such as X-rays), and procedures (including injections, 
+  CBC, and pathology tests) are appropriate for the patient's symptoms and diagnosed disease. 
+  If the prescription and procedures align with standard treatment guidelines for these symptoms or diseases, 
+  respond with: 'The prescribed medication and procedures align with the symptoms and disease.' 
+  If there is a mismatch and any prescribed medication or procedure does not align with the standard treatment, 
+  respond with: 'The prescribed medication/procedure does not match the symptoms and disease. An alternative 
+  medication/procedure might be [suggested medication/procedure].' Only provide an alternative if one is found 
+  in the knowledge base; otherwise, respond with: 'No alternative medication/procedure found in the knowledge base.' 
+  Avoid adding extra information or assumptions beyond the knowledge base.

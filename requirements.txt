@@ -1,0 +1,7 @@
+openai
+PyPDF2
+langchain
+tqdm
+python-dotenv
+faiss-cpu
+huggingface-hub
