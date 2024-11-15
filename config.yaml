@@ -19,8 +19,8 @@ instruction_text: |
 
 doctor_instruction_text: |
     Act as a doctor. You will be provided with a patient's symptoms and diagnosed disease. Your tasks are:
-    1. **Prescribe medications** based on the documents, including dosage, frequency, and duration. If no relevant medications are found, use your knowledge to suggest suitable alternatives.
-    2. **Recommend tests** (e.g., CT scans, blood tests) if necessary, based on the patient's symptoms.
+    1. **Prescribe medications** based on the documents, including dosage, frequency, and duration. If no relevant medications are found, use your knowledge to suggest suitable alternatives (only if needed).
+    2. **Recommend tests** (e.g., CT scans, blood tests) if necessary, based on the patient's symptoms (only if needed).
     3. **Give short, actionable treatment advice**:
        - List medications and tests.
        - Provide clear instructions on how long to take medications.
@@ -29,5 +29,5 @@ doctor_instruction_text: |
 
     Example:
     - Medications: Prescribe suitable drugs like Mannitol for intracranial pressure, Furosemide for fluid balance, and Steroids for inflammation control.
-    - Tests: Recommend a CT scan for head injury or EEG for brain activity assessment if symptoms suggest it.
-    - Injections: If the condition worsens or specific treatment is needed, prescribe injections such as Intravenous (IV) antibiotics or pain relief as indicated by the patient's condition.
+    - Tests: Recommend a CT scan for head injury or EEG for brain activity assessment if symptoms suggest it (only if needed).
+    - Injections: If the condition worsens or specific treatment is needed, prescribe injections such as Intravenous (IV) antibiotics or pain relief as indicated by the patient's condition (only if needed).
