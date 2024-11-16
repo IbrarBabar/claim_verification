@@ -7,3 +7,4 @@ faiss-cpu
 huggingface-hub
 langchain-community
 sentence-transformers
+streamlit_option_menu
