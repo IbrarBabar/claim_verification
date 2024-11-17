@@ -13,3 +13,4 @@ paddlepaddle
 pdfplumber
 PyMuPDF
 torch
+opencv-python
