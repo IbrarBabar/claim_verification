@@ -276,7 +276,7 @@ if selected_page == "Claim Verification":
         with st.spinner("Processing file..."):
             ocr_text, complete_response, summary_response = process_image_with_openai(uploaded_file)
         # Display the extracted summary response
-        st.markdown("### Extracted Summary:")
+        st.markdown("### ClaimSummarize:")
         st.markdown(f"<div style='padding: 10px; background-color: #f0f2f6; border-radius: 5px;'>{summary_response}</div>", unsafe_allow_html=True)
 
         # Input the extracted summary to the claim verification logic
