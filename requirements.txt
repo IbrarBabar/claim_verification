@@ -14,5 +14,6 @@ pdfplumber
 PyMuPDF
 torch
 opencv-python
-langchain-community
+PyOpenGL
+
 
