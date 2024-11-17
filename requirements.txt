@@ -8,3 +8,8 @@ huggingface-hub
 langchain-community
 sentence-transformers
 streamlit_option_menu
+paddleocr
+paddlepaddle
+pdfplumber
+PyMuPDF
+torch==2.1.0
