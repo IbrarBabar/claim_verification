@@ -1,3 +1,4 @@
+opencv-python-headless
 openai
 PyPDF2
 langchain
@@ -13,7 +14,5 @@ paddlepaddle
 pdfplumber
 PyMuPDF
 torch
-opencv-python-headless
 PyOpenGL
-
 
