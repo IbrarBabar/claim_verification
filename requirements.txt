@@ -14,3 +14,5 @@ pdfplumber
 PyMuPDF
 torch
 opencv-python
+opencv-python-headless
+
