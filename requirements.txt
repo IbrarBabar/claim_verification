@@ -18,4 +18,3 @@ python-multipart
 setuptools
 opencv-python-headless
 PyOpenGL
-libgl1
