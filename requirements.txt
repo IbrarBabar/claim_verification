@@ -13,7 +13,6 @@ paddleocr
 paddlepaddle
 pdfplumber
 PyMuPDF
-torch==2.2.1
-python-multipart
-setuptools
+torch
+libgl1
 PyOpenGL
