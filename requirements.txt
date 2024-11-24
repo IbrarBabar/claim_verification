@@ -13,9 +13,7 @@ paddleocr
 paddlepaddle
 pdfplumber
 PyMuPDF
-torch==2.2.1 
+torch==2.2.1
 python-multipart
 setuptools
-opencv-python-headless
 PyOpenGL
-
