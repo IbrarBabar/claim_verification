@@ -15,5 +15,6 @@ pdfplumber
 PyMuPDF
 torch==2.2.1 
 python-multipart
+setuptools
 PyOpenGL
 
